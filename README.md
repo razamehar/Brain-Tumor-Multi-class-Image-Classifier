@@ -4,6 +4,11 @@
 In this deep learning project, we developed a robust system to classify brain MRI scans into four categories: glioma tumor, meningioma tumor, pituitary tumor, or no tumor. Addressing the challenge of class imbalance, we employed the undersampling technique. Additionally, we enhanced our dataset through data augmentation techniques, including rotation, width shifting, height shifting, shearing, zooming, and horizontal flipping.
 
 ## Images Visualization
+<div><b>Five Random Images from each Class</b></div>
+
+<div>
+  <img src='docs/review_images1.png'>
+</div>
 
 ## Methodologies Applied
 We adopted three distinct approaches for image classification and compared their performance on our dataset.
@@ -21,6 +26,11 @@ InceptionV3, originally developed by Google for the ImageNet competition, is a d
 - Third Model: Fine-Tuning InceptionV3: In this model, we fine-tuned InceptionV3 by adjusting and retraining its deeper layers on our specific dataset. This allowed the model to adapt more closely to the nuances of our MRI images, enhancing its performance in distinguishing between different types of tumors and no tumor.
 
 ## Models Comparison
+<div><b>Comparison of the Three Models</b></div>
+
+<div>
+  <img src='docs/model_comparison.png'>
+</div>
 
 ## Data Source
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
