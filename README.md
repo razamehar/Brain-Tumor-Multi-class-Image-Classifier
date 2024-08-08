@@ -1,4 +1,4 @@
-# Brain Tumor Image 3-Way Classifier
+# Brain Tumor 3-Way Image Classifier
 
 ## Project Overview
 In this deep learning project, we developed a robust system to classify brain MRI scans into four categories: glioma tumor, meningioma tumor, pituitary tumor, or no tumor. Addressing the challenge of class imbalance, we employed the undersampling technique. Additionally, we enhanced our dataset through data augmentation techniques, including rotation, width shifting, height shifting, shearing, zooming, and horizontal flipping.
