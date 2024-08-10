@@ -36,9 +36,9 @@ InceptionV3, originally developed by Google for the ImageNet competition, is a d
 We applied a Class Activation Map (CAM) to one of the training images to understand how the model from our first approach makes predictions. This visualization technique highlights the areas in the image that are most influential in the model's decision-making process. By overlaying the CAM on the original image, we can better interpret which regions of the image contribute to the model’s classification.
 
 <p float="left">
-  <img src="cam1.jpg" width="30%" />
-  <img src="cam2.jpg" width="30%" /> 
-  <img src="cam3.jpg" width="30%" />
+  <img src="cam1.png" width="30%" />
+  <img src="cam2.png" width="30%" /> 
+  <img src="cam3.png" width="30%" />
 </p>
 
 
