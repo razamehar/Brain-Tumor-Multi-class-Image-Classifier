@@ -29,7 +29,7 @@ InceptionV3, originally developed by Google for the ImageNet competition, is a d
 <div><b>Comparison of the Three Models</b></div>
 
 <div>
-  <img src='docs/model_comparison.png'>
+  <img src='docs/model_comp.png'>
 </div>
 
 ## Class Application Map
