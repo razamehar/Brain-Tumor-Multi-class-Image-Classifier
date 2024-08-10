@@ -32,6 +32,13 @@ InceptionV3, originally developed by Google for the ImageNet competition, is a d
   <img src='docs/model_comparison.png'>
 </div>
 
+## Class Application Map
+We applied a Class Activation Map (CAM) to one of the training images to understand how the model from our first approach makes predictions. This visualization technique highlights the areas in the image that are most influential in the model's decision-making process. By overlaying the CAM on the original image, we can better interpret which regions of the image contribute to the model’s classification.
+
+<div>
+  <img src='docs/cap.png'>
+</div>
+
 ## Data Source
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
