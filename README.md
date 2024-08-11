@@ -16,6 +16,54 @@ We adopted three distinct approaches for image classification and compared their
 ### First Approach:
 Multi-Layer Convolutional Neural Network (CNN): Our initial model utilized a multi-layer CNN architecture. The layers included convolutional, pooling, and fully connected layers, each contributing to the model's ability to detect and learn intricate patterns and features in the MRI images. We employed regularization through Dropout to handle overfitting. This structure allowed the model to progressively capture low-level features like edges and textures and then combine these into high-level features representing different tumor types.
 
+<div>
+  <img src='docs/g1.png'>
+</div>
+
+<div>
+  <img src='docs/g2.png'>
+</div>
+
+<div>
+  <img src='docs/g3.png'>
+</div>
+
+<div>
+  <img src='docs/m1.png'>
+</div>
+
+<div>
+  <img src='docs/m2.png'>
+</div>
+
+<div>
+  <img src='docs/m3.png'>
+</div>
+
+<div>
+  <img src='docs/n1.png'>
+</div>
+
+<div>
+  <img src='docs/n2.png'>
+</div>
+
+<div>
+  <img src='docs/n3.png'>
+</div>
+
+<div>
+  <img src='docs/p1.png'>
+</div>
+
+<div>
+  <img src='docs/p2.png'>
+</div>
+
+<div>
+  <img src='docs/p3.png'>
+</div>
+
 ### Transfer Learning:
 We employed transfer learning, a technique where a pre-trained model is used as the starting point for a new task. This method leverages the knowledge gained from large datasets to enhance the learning process on smaller, task-specific datasets.
 
