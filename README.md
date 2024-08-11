@@ -13,58 +13,71 @@ In this deep learning project, we developed a robust system to classify brain MR
 ## Methodologies Applied
 We adopted three distinct approaches for image classification and compared their performance on our dataset.
 
-### First Approach:
+### First Approach
 Multi-Layer Convolutional Neural Network (CNN): Our initial model utilized a multi-layer CNN architecture. The layers included convolutional, pooling, and fully connected layers, each contributing to the model's ability to detect and learn intricate patterns and features in the MRI images. We employed regularization through Dropout to handle overfitting. This structure allowed the model to progressively capture low-level features like edges and textures and then combine these into high-level features representing different tumor types.
 
+#### Results Analysis
 <div>
   <img src='docs/g1.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/g2.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/g3.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/m1.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/m2.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/m3.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/n1.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/n2.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/n3.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/p1.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/p2.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
 <div>
   <img src='docs/p3.png'>
 </div>
+<hr style="border: 1px solid black;"/>
 
-### Transfer Learning:
+### Transfer Learning
 We employed transfer learning, a technique where a pre-trained model is used as the starting point for a new task. This method leverages the knowledge gained from large datasets to enhance the learning process on smaller, task-specific datasets.
 
 InceptionV3, originally developed by Google for the ImageNet competition, is a deep convolutional neural network that features inception modules. Inception modules work by employing multiple convolution filters of different sizes simultaneously to capture features at multiple scales within the same layer. These modules capture multi-scale features (low level to high level) through parallel convolutional operations of different sizes, making the model highly effective at recognizing complex patterns.
@@ -93,8 +106,8 @@ We applied a Class Activation Map (CAM) to one of the training images to underst
 ## Data Source
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-## License:
+## License
 This project is licensed under the Raza Mehar License. See the LICENSE.md file for details.
 
-## Contact:
+## Contact
 For any questions or clarifications, please contact Raza Mehar at [raza.mehar@gmail.com], Pujan Thapa at [iampujan@outlook.com] or Syed Najam Mehdi at [najam.electrical.ned@gmail.com].
