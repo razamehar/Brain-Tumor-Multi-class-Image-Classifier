@@ -14,7 +14,7 @@ In this deep learning project, we developed a robust system to classify brain MR
 We adopted three distinct approaches for image classification and compared their performance on our dataset.
 
 ### First Approach
-Multi-Layer Convolutional Neural Network (CNN): Our initial model utilized a multi-layer CNN architecture. The layers included convolutional, pooling, and fully connected layers, each contributing to the model's ability to detect and learn intricate patterns and features in the MRI images. We employed regularization through Dropout to handle overfitting. This structure allowed the model to progressively capture low-level features like edges and textures and then combine these into high-level features representing different tumor types.
+Multi-Layer Convolutional Neural Network (CNN): Our initial model was based on a multi-layer CNN architecture, consisting of convolutional, pooling, and fully connected layers. These layers enabled the model to detect and learn intricate patterns in MRI images. We used Dropout regularization to mitigate overfitting. The model progressively captured low-level features like edges and textures, which were then combined into high-level features representing different tumor types. Before training, we used Keras-Tuner to optimize the hyperparameters.
 
 #### Results Analysis
 <div>
