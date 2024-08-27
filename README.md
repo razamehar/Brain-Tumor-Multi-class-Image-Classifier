@@ -77,6 +77,9 @@ Multi-Layer Convolutional Neural Network (CNN): Our initial model was based on a
 </div>
 <hr style="border: 1px solid black;"/>
 
+### AutoKeras:
+We used AutoKeras to explore and evaluate two different model architectures to find the best one.
+
 ### Transfer Learning
 We employed transfer learning, a technique where a pre-trained model is used as the starting point for a new task. This method leverages the knowledge gained from large datasets to enhance the learning process on smaller, task-specific datasets.
 
