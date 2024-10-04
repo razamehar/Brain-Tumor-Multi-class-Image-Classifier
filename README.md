@@ -13,7 +13,7 @@ In this deep learning project, we developed a robust system to classify brain MR
 ## Methodologies Applied
 We adopted three distinct approaches for image classification and compared their performance on our dataset.
 
-### First Approach
+### First Approach: CNN
 Multi-Layer Convolutional Neural Network (CNN): Our initial model was based on a multi-layer CNN architecture, consisting of convolutional, pooling, and fully connected layers. These layers enabled the model to detect and learn intricate patterns in MRI images. We used Dropout regularization to mitigate overfitting. The model progressively captured low-level features like edges and textures, which were then combined into high-level features representing different tumor types. Before training, we used Keras-Tuner to optimize the hyperparameters.
 
 #### Results Analysis
@@ -77,10 +77,10 @@ Multi-Layer Convolutional Neural Network (CNN): Our initial model was based on a
 </div>
 <hr style="border: 1px solid black;"/>
 
-### AutoKeras:
+### Second Approach: AutoKeras:
 We used AutoKeras to explore and evaluate two different model architectures to find the best one.
 
-### Transfer Learning
+### Third Approach: Transfer Learning
 We employed transfer learning, a technique where a pre-trained model is used as the starting point for a new task. This method leverages the knowledge gained from large datasets to enhance the learning process on smaller, task-specific datasets.
 
 InceptionV3, originally developed by Google for the ImageNet competition, is a deep convolutional neural network that features inception modules. Inception modules work by employing multiple convolution filters of different sizes simultaneously to capture features at multiple scales within the same layer. These modules capture multi-scale features (low level to high level) through parallel convolutional operations of different sizes, making the model highly effective at recognizing complex patterns.
